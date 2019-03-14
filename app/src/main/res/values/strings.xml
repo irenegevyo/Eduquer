@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Eduquer</string>
+    <string name="logo_eduquer">Logo Eduquer</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="welcome_text">Welcome Text</string>
+    <string name="ruang_belajar">Ruang Belajar</string>
+    <string name="rapor">Rapor</string>
+    <string name="english">English</string>
+    <string name="history">history</string>
+    <string name="sejarah">Sejarah</string>
+    <string name="all">All</string>
+    <string name="semua_pelajaran">Semua Pelajaran</string>
+    <string name="biology">biology</string>
+    <string name="chemistry">Chemistry</string>
+    <string name="literature">literature</string>
+    <string name="math">Math</string>
+    <string name="matematika">Matematika</string>
+    <string name="roboguru">Roboguru</string>
+    <string name="foto_soal">Foto Soal</string>
+    <string name="daily_challenge">Daily Challenge</string>
+    <string name="mulai_challenge">Mulai Challenge</string>
+    <string name="layanan_favorit_untuk_anda">Layanan Favorit Untuk Anda</string>
+    <string name="lesonline">lesOnline</string>
+    <string name="ruang_les_online">Ruang Les Online</string>
+    <string name="ruang_uji">ruanguji</string>
+    <string name="ujian">Ruang Uji</string>
+    <string name="read_room">ruangbaca</string>
+    <string name="ruang_baca">Ruang Baca</string>
+    <string name="bootcamp">bootcamp</string>
+    <string name="digital_bootcamp">Digital Bootcamp</string>
+    <string name="lesroom">ruang_les</string>
+    <string name="ruang_les">Ruang Les</string>
+    <string name="spesial_untuk_kamu">Spesial Untuk Kamu</string>
+    <string name="special_ads">special for You</string>
+    <string name="shop">Shop</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="logout">Logout</string>
+    <string name="account">Account</string>
+    <string name="jamin_puas">JAMINAN PUAS &#xA;&#xA; Kamu bisa ganti dengan guru lain  atau uang kembali jika tidak cocok &#xA;dengan guru</string>
+    <string name="guru_les">LEBIH DARI 80.000 GURU &#xA;&#xA; Kami akan mencarikan guru yang paling cocok dengan kebutuhan kamu di Jabodetabek &#xA; Bandung, Medan, Jogja, Surabaya dan Kota lainnya</string>
+    <string name="mata_pelajaran">PILIHAN MATA PELAJARAN LENGKAP &#xA; &#xA; Baik pelajaran sekolah, musik, bahasa, olahraga &#xA; semua tersedia di ruang les</string>
+    <string name="belajar_everywhere">BELAJAR DI MANA SAJA dan KAPAN SAJA &#xA; &#xA; Tentukan Sendiri tempat dan waktu yang paling nyaman untuk kamu belajar </string>
+    <string name="fragment_ruang_baca_home">Home</string>
+    <string name="fragment_ruang_baca_konsep">Konsep Pelajaran</string>
+    <string name="fragment_ruang_baca_ujian">Ujian Nasional</string>
+    <string name="fragment_ruang_baca_sbmptn">SBMPTN</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
