@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.gevyo.android.eduquer.R;
 import com.gevyo.android.eduquer.RuangBacaActivity;
+import com.gevyo.android.eduquer.RuangLesActivity;
 import com.gevyo.android.eduquer.SessionHandler;
 import com.gevyo.android.eduquer.User;
 
@@ -66,12 +67,21 @@ public class HomeFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        ImageView iv = getView().findViewById(R.id.ruang_baca);
-        iv.setOnClickListener(new View.OnClickListener() {
+        ImageView ivRuangBaca = getView().findViewById(R.id.ruang_baca);
+        ivRuangBaca.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent mainIntent = new Intent(getActivity(), RuangBacaActivity.class);
                 startActivity(mainIntent);
+            }
+        });
+
+        ImageView ivRuangLes = getView().findViewById(R.id.ruang_les);
+        ivRuangLes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent lesIntent = new Intent(getActivity(), RuangLesActivity.class);
+                startActivity(lesIntent);
             }
         });
     }

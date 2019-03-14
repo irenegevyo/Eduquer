@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".RuangLesActivity"></activity>
         <activity
-            android:name="com.gevyo.android.eduquer.RuangBacaActivity"
+            android:name=".RuangBacaActivity"
             android:label="Ruang Baca"
             android:parentActivityName=".MainActivity">
             <meta-data
