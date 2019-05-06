@@ -58,4 +58,16 @@
     <string name="message">we\'re going to send a confirmation to change the password through your email, please enter your email</string>
     <string name="forget_password">forget password</string>
     <string name="email">enter email</string>
+
+    <array name="Kelas">
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA IPA</item>
+        <item>SMA IPS</item>
+        <item>SMK</item>
+        <item>UN</item>
+        <item>USBN</item>
+        <item>SNMPTN</item>
+        <item>SBMPTN</item>
+    </array>
 </resources>

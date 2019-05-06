@@ -7,66 +7,12 @@
     tools:context="com.gevyo.android.RuangBacaFragment.RuangBacaHomeFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <android.support.v7.widget.CardView
-        android:id="@+id/Article1"
+    <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:layout_margin="20dp"
-        app:cardCornerRadius="4dp">
-
-        <android.support.constraint.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:id="@+id/ruang_baca1"
-                android:layout_width="161dp"
-                android:layout_height="102dp"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_alignParentBottom="true"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
-                android:paddingStart="5dp"
-                android:src="@drawable/ruangkerja"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
-
-            <TextView
-                android:id="@+id/artikelbunga"
-                android:layout_width="176dp"
-                android:layout_height="45dp"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="16dp"
-                android:layout_toEndOf="@+id/ruang_baca1"
-                android:text="Tips masuk ke dunia kerja, dengan peforma yang baik"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/ruang_baca1"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/editText"
-                android:layout_width="146dp"
-                android:layout_height="20dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="16dp"
-                android:ems="10"
-                android:text="Mar 14 2019 . 4 Min read"
-                android:textSize="12sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.208"
-                app:layout_constraintStart_toEndOf="@+id/ruang_baca1"
-                app:layout_constraintTop_toBottomOf="@+id/artikelbunga"
-                app:layout_constraintVertical_bias="0.307" />
-        </android.support.constraint.ConstraintLayout>
-    </android.support.v7.widget.CardView>
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        android:id="@+id/rv">
+    </android.support.v7.widget.RecyclerView>
 </LinearLayout>
 
 

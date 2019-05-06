@@ -76,7 +76,8 @@
                         android:layout_alignParentBottom="true"
                         android:layout_marginStart="@dimen/activity_vertical_margin"
                         android:layout_marginEnd="20dp"
-                        android:layout_marginBottom="@dimen/small_padding">
+                        android:layout_marginBottom="@dimen/small_padding"
+                        android:entries="@array/Kelas">
 
                     </Spinner>
                 </RelativeLayout>
