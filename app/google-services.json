@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "494073442874",
+    "firebase_url": "https://eduquer-a1.firebaseio.com",
+    "project_id": "eduquer-a1",
+    "storage_bucket": "eduquer-a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494073442874:android:ca61ebd74496a9c4",
+        "android_client_info": {
+          "package_name": "com.gevyo.android.eduquer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494073442874-tpr6poejgen6c7k617b85ugeorit8406.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gevyo.android.eduquer",
+            "certificate_hash": "50bf447da146e67d974ee9d5d5ea060e2a9649ab"
+          }
+        },
+        {
+          "client_id": "494073442874-n9ll9tcsnhmme7r1ej3d0teahk5n3jsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt1iyNBCj-ljdgaBhEzdiSVphHc22XeCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494073442874-n9ll9tcsnhmme7r1ej3d0teahk5n3jsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,17 +22,18 @@ tools:context=".LoginActivity">
     android:src="@drawable/eduquer2_transparent" />
 
 <EditText
-    android:id="@+id/Login_username"
+    android:id="@+id/etEmail"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
     android:background="@android:color/white"
-    android:hint="@string/username"
-    android:inputType="textPersonName"
+    android:hint="@string/email"
+    android:inputType="textEmailAddress"
     android:padding="10dp"
     tools:ignore="Autofill"/>
 
 <EditText
+    android:id="@+id/etPassword"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
@@ -68,5 +69,21 @@ tools:context=".LoginActivity">
     android:background="#e65100"
     android:text="@string/register"
     android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/button_register2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#ff7961  "
+        android:text="@string/forget_password"
+        android:textColor="@android:color/white" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
 
 </LinearLayout>

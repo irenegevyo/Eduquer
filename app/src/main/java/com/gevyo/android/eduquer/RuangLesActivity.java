@@ -3,7 +3,6 @@ package com.gevyo.android.eduquer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ImageView;
-
 import com.bumptech.glide.Glide;
 
 public class RuangLesActivity extends AppCompatActivity {
@@ -14,13 +13,13 @@ public class RuangLesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_ruang_les);
 
         int resID1 = R.drawable.presentation;
-        ImageView mFoto1 = findViewById(R.id.biology);
+        ImageView mFoto1 = findViewById(R.id.activeclass);
         Glide.with(this)
                 .load(resID1)
                 .into(mFoto1);
 
         int resID2 = R.drawable.clock;
-        ImageView mFoto2 = findViewById(R.id.chemistry);
+        ImageView mFoto2 = findViewById(R.id.historyclass);
         Glide.with(this)
                 .load(resID2)
                 .into(mFoto2);
@@ -36,12 +35,17 @@ public class RuangLesActivity extends AppCompatActivity {
         Glide.with(this)
                 .load(resID4)
                 .into(mFoto4);
-
-        int resID5 = R.drawable.hourglass;
-        ImageView mFoto5 = findViewById(R.id.hourglass);
+        int resID5 = R.drawable.notepad;
+        ImageView mFoto5 = findViewById(R.id.materikelas);
         Glide.with(this)
                 .load(resID5)
                 .into(mFoto5);
+
+        int resID6 = R.drawable.hourglass;
+        ImageView mFoto6 = findViewById(R.id.hourglass);
+        Glide.with(this)
+                .load(resID6)
+                .into(mFoto6);
 
     }
 }

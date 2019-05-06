@@ -30,7 +30,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:paddingStart="5dp"
-                android:src="@drawable/ic_insert_emoticon_black_24dp"
+                android:src="@drawable/ruangkerja"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
@@ -38,12 +38,12 @@
 
             <TextView
                 android:id="@+id/artikelbunga"
-                android:layout_width="192dp"
-                android:layout_height="39dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_width="176dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="16dp"
                 android:layout_toEndOf="@+id/ruang_baca1"
-                android:text="Apa sih penyebab Bunga Disukai Lebah?"
+                android:text="Tips masuk ke dunia kerja, dengan peforma yang baik"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/ruang_baca1"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -61,8 +61,10 @@
                 android:textSize="12sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.208"
                 app:layout_constraintStart_toEndOf="@+id/ruang_baca1"
-                app:layout_constraintTop_toBottomOf="@+id/artikelbunga" />
+                app:layout_constraintTop_toBottomOf="@+id/artikelbunga"
+                app:layout_constraintVertical_bias="0.307" />
         </android.support.constraint.ConstraintLayout>
     </android.support.v7.widget.CardView>
 </LinearLayout>

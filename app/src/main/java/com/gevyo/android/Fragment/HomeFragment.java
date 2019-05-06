@@ -9,7 +9,6 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -24,7 +23,6 @@ public class HomeFragment extends Fragment {
 
     TextView welcomeText;
     ImageView openAccount;
-    Button openCamera;
     private SessionHandler session;
 
     @Override
@@ -43,15 +41,6 @@ public class HomeFragment extends Fragment {
 
         welcomeText = view.findViewById(R.id.welcomeText);
         welcomeText.setText("Welcome ");
-
-
-        openCamera = view.findViewById(R.id.foto);
-        openCamera.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(getActivity(), "Open Camera", Toast.LENGTH_SHORT).show();
-            }
-        });
 
         openAccount = view.findViewById(R.id.ruang_baca);
         openAccount.setOnClickListener(new View.OnClickListener() {

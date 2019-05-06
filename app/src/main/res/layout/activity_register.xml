@@ -33,16 +33,14 @@
         tools:ignore="Autofill" />
 
     <EditText
-        android:id="@+id/etUsername"
+        android:id="@+id/etEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:background="@android:color/white"
-        android:hint="@string/username"
-        android:inputType="textPersonName"
-        android:padding="10dp"
-        tools:ignore="Autofill"/>
-
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -52,19 +50,7 @@
         android:background="@android:color/white"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:padding="10dp"
-        tools:ignore="Autofill" />
-
-    <EditText
-        android:id="@+id/etConfirmPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="5dp"
-        android:background="@android:color/white"
-        android:hint="@string/confirm_password"
-        android:inputType="textPassword"
-        android:padding="10dp"
-        tools:ignore="Autofill" />
+        android:padding="10dp"/>
 
     <Button
         android:id="@+id/btnRegister"
@@ -88,7 +74,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="5dp"
-        android:background="#aaa"
+        android:background="#ff833a"
         android:text="@string/log_in"
-        android:textColor="@android:color/black" />
+        android:textColor="@android:color/white" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
 </LinearLayout>
